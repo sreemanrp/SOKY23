@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 100;
+    font-family: "Lekton", monospace;
+}
+
+h1{
+    position: absolute;
+    font-style: normal;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 24px;
+}
+
+p {
+    position: absolute;
+    top: 24px;
+    left: 10px;
+}
+
+.UC{
+    position: absolute;
+    text-align: left;
+    top: 15%;
+    font-size: 20px;
+}
+
+.Support {
+    position: absolute;
+    top: calc(15% + 40px);
+    left: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.Support a {
+    color: #006EFE;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.Support a:hover {
+    text-decoration: underline;
+}
